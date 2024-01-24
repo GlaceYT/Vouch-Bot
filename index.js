@@ -38,7 +38,7 @@ const client = new Client({
 });
 
 
-const prefix = ';';
+const prefix = '?';
 
 
 
@@ -109,8 +109,8 @@ client.once('ready', () => {
   setTimeout(() => {
     console.log('\x1b[32m%s\x1b[0m', `|    🎯 Activity sucessfully set!`);
     client.user.setPresence({
-      activities: [{ name: `Other bots`, type: ActivityType.Competing }],
-      status: 'available',
+      activities: [{ name: `LOTTA KAMPANY`, type: ActivityType.Watching }],
+      status: 'dnd',
     });
   }, 2000); 
 });
